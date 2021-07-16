@@ -1,0 +1,23 @@
+.container {
+    width: max-content;
+    margin-bottom: 2rem;
+
+    h1 {
+        font-weight: 800;
+    }
+
+    .underline {
+        height: 8px;
+        width: 100%;
+        border-radius: 3px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        h1 {
+            font-size: 2.2rem;
+        }
+    }
+}

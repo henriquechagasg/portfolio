@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    background-color: none;
+    padding: 3% 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    .card {
+        width: 100%;
+        height: auto;
+        background-color: rgba(248, 248, 242, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(2px);
+        border: 2px solid white;
+        padding: 1rem 2rem;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+
+        p {
+            margin: 1rem 0;
+            font-family: "Ubuntu";
+            font-size: 1.3rem;
+            text-align: justify;
+        }
+
+
+        .technologies{
+            display: flex;
+            align-items: center;
+            width: auto;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        .card {
+            padding: 1rem 1rem;
+        }
+
+    }
+}

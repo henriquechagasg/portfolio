@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFF;
+  --green: #29C241;
+  --red: #F35F54;
+  --yellow: #ece17d;
+
+  --gray-50: #F7F8FA;
+  --gray-100: #E6E8EB;
+  --gray-200: #AFB2B1;
+  --gray-500: #808080;
+  --gray-800: #494D4B;
+
+  --green-500: #04D361;
+  
+  --purple-300: #9F75FF;
+  --purple-400: #9164FA; 
+  --purple-500: #8257E5;
+  --purple-800: #6F48C9;
+}
+
+@media (max-width: 1080px) {
+  html {
+      font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+      font-size: 87.5%;
+  }
+}
+
+body {
+  background: #282a36;
+  z-index: -10;
+  overflow-x: hidden;
+  position: relative;
+  max-width: 2080px;
+}
+
+body, input, textarea, button {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--white)
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  transition: transform 0.3s;
+  border: none;
+  border-radius: 3px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+p {
+  margin: 2px 0;
+}
+
+main{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 0 7% 4rem 7%;
+} 
+
+.hidden{
+  display: none;
+}
+
+.stop-scrolling {
+  overflow-y: hidden;
+}
+
+@media screen and(max-width: 700px) {
+  main {
+    padding: 0 4% 5rem 4%;
+  }
+}

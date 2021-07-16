@@ -1,0 +1,30 @@
+.container {
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+    // width: 100%;
+
+    .title {
+        width: 350px;
+        margin-bottom: 2rem;
+
+        h1 {
+            font-weight: 800;
+        }
+
+        .underline {
+            height: 8px;
+            width: 100%;
+            border-radius: 3px;
+
+        }
+    }
+
+    .technologies{
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+    }
+
+}
