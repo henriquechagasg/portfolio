@@ -1,16 +1,16 @@
 # Portfolio
 
-💹 Typescript
+✅ Typescript
 <br />
-💹 React
+✅ React
 <br />
-💹 Next.js
+✅ Next.js
 <br />
-💹 React Hooks
+✅ React Hooks
 <br />
-💹 Context API
+✅ Context API
 <br />
-💹 DRY principle
+✅ DRY principle
 
 # About
 
@@ -22,4 +22,7 @@ The portfolio website has your own music player and develop it was my biggest ch
 Basically, for this to work, first I needed to host my songs on a Google Cloud bucket so I could pass the link for an html audio tag.
 After that, I used react hooks for monitoring the state of that tag and, using context-api, I passed that state through components.
 
-<img src="https://res.cloudinary.com/myuploads/image/upload/v1626357035/Portfolio/gifs/portfolio/musicplayer_fbx3ti.gif" width="85%" />
+<img 
+     src="https://res.cloudinary.com/myuploads/image/upload/v1626357035/Portfolio/gifs/portfolio/musicplayer_fbx3ti.gif"
+     style="width:85%; @media-screen and (max-width:700px){ width: 100% }"
+/>
