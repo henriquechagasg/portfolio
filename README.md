@@ -14,10 +14,10 @@
 
 # About
 
-This is my personal portfolio which has your own music player.
+This is my <a href="https://henriquechagas.space" style="color: white">personal portfolio<a/> respositorie.
 
 ## Music Player
-One of the things I most enjoeyd working on.
+The portfolio website has your own music player and this is one of the things I most enjoeyd working on.
 <br />
 For this to work, first I needed to host my songs on a Google Cloud bucket so I could pass the link for an html audio tag.
 After that, I used react hooks for monitoring the state of that tag and, using context-api, I passed that state through components.
