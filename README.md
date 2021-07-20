@@ -14,7 +14,7 @@
 
 # About
 
-This is my <a href="https://henriquechagas.space" style="color: white" target="_blank">personal portfolio<a/> respositorie.
+This is my <a href="https://henriquechagas.space" style="color: white" target="_blank">personal portfolio<a/> respository.
 
 ## Music Player
 The portfolio website has your own music player and develop it was my biggest challenge for this project.
