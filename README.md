@@ -10,7 +10,7 @@
 <br />
 ✅ Context API
 <br />
-✅ DRY principle
+✅ DRY Principle
 
 # About
 
