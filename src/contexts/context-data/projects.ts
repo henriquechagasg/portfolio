@@ -47,7 +47,7 @@ export const projects: ProjectType[] = [
             ]
         },
         links: {
-            github: "https://github.com/henriquechagasg/catalogoch32.0", 
+            github: "https://github.com/henriquechagasg/ch3catalogue2.0", 
             website: "https://catalogoch3.store"
         },
         image: "https://res.cloudinary.com/myuploads/image/upload/v1623238166/Portfolio/catalogoon_g7fc9f.png",
