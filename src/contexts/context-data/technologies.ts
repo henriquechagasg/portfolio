@@ -1,6 +1,6 @@
 export type TechnologieType = {
     name: string,
-    imgSrc: string
+    imgSrc?: string
 }
 
 const technologies: TechnologieType[] = [
@@ -43,6 +43,26 @@ const technologies: TechnologieType[] = [
     {
         name: "Expo",
         imgSrc: "https://res.cloudinary.com/myuploads/image/upload/v1626450049/Portfolio/logos/expo_pxnpvf.png"
+    },
+    {
+        name: "Git",
+        imgSrc: "https://res.cloudinary.com/myuploads/image/upload/v1626867345/Portfolio/logos/git_xxway7.png"
+    },
+    {
+        name: "Figma",
+        imgSrc: "https://res.cloudinary.com/myuploads/image/upload/v1626867619/Portfolio/logos/figma_xqk86n.png"
+    },
+    {
+        name: "✅ OOP"
+    },
+    {
+        name: "✅ SOLID"
+    },
+    {
+        name: "✅ DRY"
+    },
+    {
+        name: "✅ SCRUM"
     }
 ]
 

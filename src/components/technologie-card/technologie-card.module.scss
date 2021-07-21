@@ -9,6 +9,7 @@
     border: 1px solid white;
     border-radius: 30px;
     transition: transform 0.3s;
+    width: fit-content;
 
     &:hover {
         transform: scale(1.1);

@@ -8,8 +8,7 @@
     .projectsFlex {
         width: 100%;
         display: flex;
-        flex-direction: "row";
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
 
         .card {
@@ -22,8 +21,8 @@
             color: white;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
             overflow: hidden;
-            margin-right: 1rem;
-            margin-bottom: 2rem;
+            margin-right: 1.2rem;
+            margin-bottom: 2.5rem;
 
             .projectImage {
                 height: 65%;
