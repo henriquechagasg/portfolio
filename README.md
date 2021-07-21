@@ -6,11 +6,6 @@
 <br />
 ✅ Next.js
 <br />
-✅ React Hooks
-<br />
-✅ Context API
-<br />
-✅ DRY Principle
 
 # About
 
