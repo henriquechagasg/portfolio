@@ -45,7 +45,7 @@ export const allSkillsType = [
             pt: "Outras tecnologias",
             en: "Other technologies"
         },
-        skills: ["Javascript", "Python", "mongoDb", "Docker", "Next.js", "React Native", "Expo", "Git", "Figma"]
+        skills: ["Javascript", "Python", "mongoDB", "Docker", "Next.js", "React Native", "Expo", "Git", "Figma"]
     },
     {
         skillType: {
