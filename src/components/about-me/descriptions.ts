@@ -52,6 +52,6 @@ export const allSkillsType = [
             pt: "Competências",
             en: "Competences"
         },
-        skills: ["✅ OOP", "✅ SOLID", "✅ DRY", "✅ SCRUM"]
+        skills: ["✅ OOP", "✅ DRY", "✅ SCRUM"]
     }
 ]
